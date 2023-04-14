@@ -15,7 +15,7 @@ console.log("https://github.com/net-tech/discord-sus-growth-early-warning")
 			type: "password",
 			name: "token",
 			message:
-				"Please enter your bot's token, if you don't trust the code, see for yourself at X:",
+				"Please enter your bot's token, if you don't trust the code, see for yourself at the link above:",
 		},
 		{
 			onCancel: () => {
