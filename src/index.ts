@@ -45,9 +45,9 @@ console.log("https://github.com/net-tech/discord-sus-growth-early-warning")
 		await client.guilds.fetch()
 		const guilds = client.guilds.cache
 
-		if (guilds.size > 75) {
+		if (guilds.size > 100) {
 			spinner.fail(
-				`You are in ${guilds.size} guilds, which is over the 75 limit for non-verified bots. Why are you using this tool if you're already verified?`
+				`You are in ${guilds.size} guilds, which is over the 100 limit for non-verified bots. Why are you using this tool if you're already verified?`
 			)
 			process.exit(0)
 		}
